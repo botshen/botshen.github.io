@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | Gridea</title>
+<title>浅析 URL | Gridea</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,7 +18,12 @@
 
 
 
-    <meta name="description" content="温故而知新">
+    <meta name="description" content="URL 包含哪几部分，每部分分别有什么作用
+URL包括协议+域名或IP+端口号+路径+查询字符串+锚点
+• 协议就是网站用的协议，一般是http或https
+• IP申请的访问地址，可以通过域名访问，也是IP的别称
+• 不同的协议拥有不同端..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,71 +93,53 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">浅析 URL</h2>
+            <div class="post-date">2020-08-04</div>
+            
+            <div class="post-content" v-pre>
+              <p>URL 包含哪几部分，每部分分别有什么作用<br>
+URL包括协议+域名或IP+端口号+路径+查询字符串+锚点<br>
+• 协议就是网站用的协议，一般是http或https<br>
+• IP申请的访问地址，可以通过域名访问，也是IP的别称<br>
+• 不同的协议拥有不同端口号<br>
+• http是80<br>
+• https是443<br>
+• 路径是指向服务器的内容的，访问不同的路径出现不同的界面<br>
+• 查询字符串可以做到同一个页面不同内容<br>
+• 锚点是同一个内容不同位置，锚点不会上传到服务器<br>
+DNS 的作用是什么，nslookup 命令怎么用<br>
+DNS把域名和IP对应起来<br>
+<img src="http://botshen.github.io/post-images/1596517352180.png" alt="" loading="lazy"><br>
+IP 的作用是什么，ping 命令怎么用<br>
+IP用来访问目标服务器<br>
+域名是什么，分别哪几类域名<br>
+• com是公司的缩写<br>
+• org是非营利组织<br>
+• 有哪几类域名？</p>
+<ol>
+<li>com是顶级域名</li>
+<li>baidu.com是二级域名（俗称一级域名）</li>
+<li>www.baidu.com是三级域名（俗称二级）（其实是父子关系，但不是同一域名）<br>
+例子：github.io把子域名xxx.github.io免费给大家使用</li>
+</ol>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
-              
-                
-                  <article class="post">
-                    <a href="http://botshen.github.io/post/qian-xi-url/">
-                      <h2 class="post-title">
-                        浅析 URL
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://botshen.github.io/post/css-zhi-shi-zong-jie/">
-                      <h2 class="post-title">
-                        CSS 知识总结
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://botshen.github.io/post/111/">
-                      <h2 class="post-title">
-                        HTML常用标签
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-              
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2018</h2>
-              
-                
-              
-                
-              
-                
-              
-                
-                  <article class="post">
-                    <a href="http://botshen.github.io/post/hello-gridea/">
-                      <h2 class="post-title">
-                        Hello Gridea
-                      </h2>
-                    </a>
-                  </article>
-                
-              
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://botshen.github.io/post/css-zhi-shi-zong-jie/">
+                  <h3 class="post-title">
+                    CSS 知识总结
+                  </h3>
+                </a>
+              </div>
             
+
+            
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>

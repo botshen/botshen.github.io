@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://botshen.github.io</id>
     <title>Gridea</title>
-    <updated>2020-08-04T05:00:41.013Z</updated>
+    <updated>2020-08-04T05:21:58.730Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://botshen.github.io"/>
     <link rel="self" href="http://botshen.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>http://botshen.github.io/images/avatar.png</logo>
     <icon>http://botshen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[浅析 URL]]></title>
+        <id>http://botshen.github.io/post/qian-xi-url/</id>
+        <link href="http://botshen.github.io/post/qian-xi-url/">
+        </link>
+        <updated>2020-08-04T05:01:13.000Z</updated>
+        <content type="html"><![CDATA[<p>URL 包含哪几部分，每部分分别有什么作用<br>
+URL包括协议+域名或IP+端口号+路径+查询字符串+锚点<br>
+• 协议就是网站用的协议，一般是http或https<br>
+• IP申请的访问地址，可以通过域名访问，也是IP的别称<br>
+• 不同的协议拥有不同端口号<br>
+• http是80<br>
+• https是443<br>
+• 路径是指向服务器的内容的，访问不同的路径出现不同的界面<br>
+• 查询字符串可以做到同一个页面不同内容<br>
+• 锚点是同一个内容不同位置，锚点不会上传到服务器<br>
+DNS 的作用是什么，nslookup 命令怎么用<br>
+DNS把域名和IP对应起来<br>
+<img src="http://botshen.github.io/post-images/1596517352180.png" alt="" loading="lazy"><br>
+IP 的作用是什么，ping 命令怎么用<br>
+IP用来访问目标服务器<br>
+域名是什么，分别哪几类域名<br>
+• com是公司的缩写<br>
+• org是非营利组织<br>
+• 有哪几类域名？</p>
+<ol>
+<li>com是顶级域名</li>
+<li>baidu.com是二级域名（俗称一级域名）</li>
+<li>www.baidu.com是三级域名（俗称二级）（其实是父子关系，但不是同一域名）<br>
+例子：github.io把子域名xxx.github.io免费给大家使用</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSS 知识总结]]></title>
         <id>http://botshen.github.io/post/css-zhi-shi-zong-jie/</id>
