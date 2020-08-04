@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea</title>
+<title>CSS 知识总结 | Gridea</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,8 +18,15 @@
 
 
 
-    <meta name="description" content="温故而知新">
-    
+    <meta name="description" content="
+浏览器渲染原理
+步骤
+• 根据HTML构建HTML树（DOM）
+• 根据CSS构建CSS树（CSSOM）
+• 将两棵树合并成一颗渲染树（render tree）
+• Layout布局（文档流，盒模型，计算大小和位置）
+• Paint绘制（..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,64 +96,48 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="http://botshen.github.io/post/css-zhi-shi-zong-jie/">
-                  <h2 class="post-title">CSS 知识总结</h2>
-                </a>
-                <div class="post-date">
-                  2020-08-04
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
+          <div class="post-detail">
+            <h2 class="post-title">CSS 知识总结</h2>
+            <div class="post-date">2020-08-04</div>
+            
+            <div class="post-content" v-pre>
+              <ol>
+<li>浏览器渲染原理<br>
+步骤<br>
+• 根据HTML构建HTML树（DOM）<br>
+• 根据CSS构建CSS树（CSSOM）<br>
+• 将两棵树合并成一颗渲染树（render tree）<br>
+• Layout布局（文档流，盒模型，计算大小和位置）<br>
+• Paint绘制（把边框颜色、文字颜色、阴影等画出来）<br>
+• Compose合成（根据层叠关系展示画面）<img src="http://botshen.github.io/post-images/1596517151272.png" alt="" loading="lazy"></li>
+<li>CSS 动画的两种做法（transition 和 animation）<br>
+transition<br>
+中文是过渡的意思，用来补充中间帧<br>
+语法<br>
+<img src="http://botshen.github.io/post-images/1596517164886.png" alt="" loading="lazy"><br>
+不是所有的属性都可以过渡<br>
+<img src="http://botshen.github.io/post-images/1596517173512.png" alt="" loading="lazy"><br>
+animation<br>
+但是如何处理中间点呢？<br>
+可以使用animation<img src="http://botshen.github.io/post-images/1596517178967.png" alt="" loading="lazy"></li>
+</ol>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
                 <a href="http://botshen.github.io/post/111/">
-                  <h2 class="post-title">HTML常用标签</h2>
+                  <h3 class="post-title">
+                    HTML常用标签
+                  </h3>
                 </a>
-                <div class="post-date">
-                  2020-08-04
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
               </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="http://botshen.github.io/post/hello-gridea/">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+            
 
-                </div>
-              </div>
-              
-                <a class="right" href="http://botshen.github.io/post/hello-gridea/">
-                  <div class="feature-container" style="background-image: url('http://botshen.github.io/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
 
-          <div class="pagination-container">
-  
-  
-</div>
+          </div>
 
         </div>
       </div>
