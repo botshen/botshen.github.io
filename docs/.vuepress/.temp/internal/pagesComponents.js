@@ -5,6 +5,12 @@ export const pagesComponents = {
   "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"E:/code/vuepress-theme-hope/docs/.vuepress/.temp/pages/home.html.vue")),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"E:/code/vuepress-theme-hope/docs/.vuepress/.temp/pages/index.html.vue")),
+  // path: /posts/Map%E7%9A%84%E7%94%A8%E6%B3%95.html
+  "v-331bf427": defineAsyncComponent(() => import(/* webpackChunkName: "v-331bf427" */"E:/code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/Map的用法.html.vue")),
+  // path: /posts/vue%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.html
+  "v-9b97fcfa": defineAsyncComponent(() => import(/* webpackChunkName: "v-9b97fcfa" */"E:/code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/vue代码规范.html.vue")),
+  // path: /posts/%E6%89%8B%E5%86%99EventHub.html
+  "v-09973071": defineAsyncComponent(() => import(/* webpackChunkName: "v-09973071" */"E:/code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/手写EventHub.html.vue")),
   // path: /posts/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2.html
   "v-c7090f2a": defineAsyncComponent(() => import(/* webpackChunkName: "v-c7090f2a" */"E:/code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/网站部署.html.vue")),
   // path: /404.html
