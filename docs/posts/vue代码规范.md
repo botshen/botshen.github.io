@@ -4,8 +4,9 @@ title: vue代码规范
 description: ""
 ---
 
-统一使用 private 需要的时候使用 public
-代码顺序
+- 统一使用 private 需要的时候使用 public
+
+## 代码顺序
 
 - Prop
 - 私有属性 data
