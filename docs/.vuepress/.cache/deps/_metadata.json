@@ -1,44 +1,44 @@
 {
-  "hash": "0ef7f816",
-  "browserHash": "bd9fdc59",
+  "hash": "b6524b72",
+  "browserHash": "8786c541",
   "optimized": {
     "@vue/devtools-api": {
-      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "9f1b6efb",
+      "fileHash": "615bd046",
       "needsInterop": false
     },
     "@vuepress/shared": {
-      "src": "../../../../node_modules/.pnpm/@vuepress+shared@2.0.0-beta.48/node_modules/@vuepress/shared/dist/index.js",
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "d613b8d1",
+      "fileHash": "9e5aae23",
       "needsInterop": false
     },
     "vue": {
-      "src": "../../../../node_modules/.pnpm/vue@3.2.37/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a02b16d8",
+      "fileHash": "a0bec746",
       "needsInterop": false
     },
     "vue-router": {
-      "src": "../../../../node_modules/.pnpm/vue-router@4.0.16_vue@3.2.37/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "1421eaff",
+      "fileHash": "b08b8999",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-3V3745CT": {
-      "file": "chunk-3V3745CT.js"
+    "chunk-Q5X3EJDP": {
+      "file": "chunk-Q5X3EJDP.js"
     },
-    "chunk-EZMIL3FG": {
-      "file": "chunk-EZMIL3FG.js"
+    "chunk-O2EQTYSL": {
+      "file": "chunk-O2EQTYSL.js"
     },
-    "chunk-THCDN4SF": {
-      "file": "chunk-THCDN4SF.js"
+    "chunk-7J233KP6": {
+      "file": "chunk-7J233KP6.js"
     },
-    "chunk-F6TR6WRY": {
-      "file": "chunk-F6TR6WRY.js"
+    "chunk-5OAHIFJJ": {
+      "file": "chunk-5OAHIFJJ.js"
     }
   }
 }

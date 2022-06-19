@@ -84,11 +84,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      // provider: "Giscus",
+      // repo: "vuepress-theme-hope/giscus-discussions",
+      // repoId: "R_kgDOG_Pt2A",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOG_Pt2M4COD69",
 
       /**
        * Using Twikoo
@@ -105,6 +105,7 @@ export default hopeTheme({
 
     mdEnhance: {
       enableAll: false,
+      tasklist: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
