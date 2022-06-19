@@ -1,0 +1,74 @@
+{
+  "hash": "f18e73c6",
+  "browserHash": "c31f7f99",
+  "optimized": {
+    "@vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "@vue_devtools-api.js",
+      "fileHash": "b97991f0",
+      "needsInterop": false
+    },
+    "@vuepress/shared": {
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
+      "file": "@vuepress_shared.js",
+      "fileHash": "d789d8f1",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "288c6d00",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "file": "vue-router.js",
+      "fileHash": "782e6a21",
+      "needsInterop": false
+    },
+    "chart.js/auto": {
+      "src": "../../../../node_modules/chart.js/auto/auto.esm.js",
+      "file": "chart_js_auto.js",
+      "fileHash": "74b93f23",
+      "needsInterop": false
+    },
+    "echarts": {
+      "src": "../../../../node_modules/echarts/index.js",
+      "file": "echarts.js",
+      "fileHash": "7cacfd02",
+      "needsInterop": false
+    },
+    "flowchart.js": {
+      "src": "../../../../node_modules/flowchart.js/index.js",
+      "file": "flowchart_js.js",
+      "fileHash": "8bb36558",
+      "needsInterop": true
+    },
+    "mermaid": {
+      "src": "../../../../node_modules/mermaid/dist/mermaid.esm.min.mjs",
+      "file": "mermaid.js",
+      "fileHash": "a3f1f0a4",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "98a1c22a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ISYOKMSS": {
+      "file": "chunk-ISYOKMSS.js"
+    },
+    "chunk-Q23YEAGD": {
+      "file": "chunk-Q23YEAGD.js"
+    },
+    "chunk-DULQPH3V": {
+      "file": "chunk-DULQPH3V.js"
+    },
+    "chunk-WVPZXE6Q": {
+      "file": "chunk-WVPZXE6Q.js"
+    }
+  }
+}
