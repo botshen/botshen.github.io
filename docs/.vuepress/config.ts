@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme";
 import { searchPlugin } from "@vuepress/plugin-search";
 
-
 export default defineUserConfig({
   lang: "zh-CN",
   title: "♥博客",
@@ -14,14 +13,14 @@ export default defineUserConfig({
   plugins: [
     searchPlugin({
       locales: {
-        '/': {
-          placeholder: 'Search',
+        "/": {
+          placeholder: "Search",
         },
-        '/zh/': {
-          placeholder: '搜索',
+        "/zh/": {
+          placeholder: "搜索",
         },
-        
-      }
+      },
+      
     }),
   ],
 });

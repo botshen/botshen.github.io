@@ -5,8 +5,12 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /home.html
   "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/home.html.vue")),
+  // path: /posts/JS%E5%AF%B9%E8%B1%A1%E7%9A%84api%E6%80%BB%E7%BB%93.html
+  "v-9d1f6772": defineAsyncComponent(() => import(/* webpackChunkName: "v-9d1f6772" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/JS对象的api总结.html.vue")),
   // path: /posts/Map%E7%9A%84%E7%94%A8%E6%B3%95.html
   "v-331bf427": defineAsyncComponent(() => import(/* webpackChunkName: "v-331bf427" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/Map的用法.html.vue")),
+  // path: /posts/TODO.html
+  "v-7edee604": defineAsyncComponent(() => import(/* webpackChunkName: "v-7edee604" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/TODO.html.vue")),
   // path: /posts/vue%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.html
   "v-9b97fcfa": defineAsyncComponent(() => import(/* webpackChunkName: "v-9b97fcfa" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/vue代码规范.html.vue")),
   // path: /posts/%E6%89%8B%E5%86%99EventHub.html
