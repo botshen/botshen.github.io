@@ -10,7 +10,7 @@ actions:
     link: /guide/
     type: primary
 
-  - text: 博客主页 🏠
+  - text: 我的博客主页 🏠
     link: /
 
 features:
