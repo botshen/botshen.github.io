@@ -4,13 +4,13 @@ title: 手写EventHub
 description: 手写EventHub
 ---
 
-
 ## 什么是 EventHub
 
 - 用来多个模块之间进行通信的，也叫做发布订阅模式
 - 两个 JS 文件想要互相调用函数怎么实现呢？不能使用全局变量
 - 相当于一个全局对象，一个 js 文件想要调用另一个文件的函数的时候就触发事件告诉 EventHub（使用 emit）
 - EventHub 监听了这个事件，在第二个文件注册/监听事件（使用 on），当监听文件 1 触发的事件的时候做事
+  ![image](https://cdn.jsdelivr.net/gh/botshen/image-hosting@master/20220503/image.m1tzpavd39c.webp)
 
 ## 解题思路
 
