@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 title: vue代码规范
-description: ""
+description: "vue代码规范"
 ---
 
 - 统一使用 private 需要的时候使用 public
