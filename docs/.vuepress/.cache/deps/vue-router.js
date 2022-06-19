@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-ISYOKMSS.js";
+} from "./chunk-VGPBIGHF.js";
 import {
   computed,
   defineComponent,
@@ -18,50 +18,11 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-Q23YEAGD.js";
-import "./chunk-DULQPH3V.js";
-import {
-  init_define_BACK_TO_TOP_LOCALES,
-  init_define_CODE_COPY_LOCALES,
-  init_define_CODE_COPY_OPIONS,
-  init_define_CODE_DEMO_OPTIONS,
-  init_define_COMMENT_OPTIONS,
-  init_define_EXTERNAL_LINK_ICON_LOCALES,
-  init_define_MERMAID_OPTIONS,
-  init_define_PHOTO_SWIPE_LOCALES,
-  init_define_PHOTO_SWIPE_OPTIONS,
-  init_define_READING_TIME_LOCALES,
-  init_define_REVEAL_CONFIG,
-  init_define_WALINE_LOCALES
-} from "./chunk-WVPZXE6Q.js";
+} from "./chunk-WOTAZRT2.js";
+import "./chunk-4LIMYJU2.js";
+import "./chunk-C3YMKAXP.js";
 
-// dep:vue-router
-init_define_BACK_TO_TOP_LOCALES();
-init_define_CODE_COPY_LOCALES();
-init_define_CODE_COPY_OPIONS();
-init_define_CODE_DEMO_OPTIONS();
-init_define_COMMENT_OPTIONS();
-init_define_MERMAID_OPTIONS();
-init_define_PHOTO_SWIPE_LOCALES();
-init_define_PHOTO_SWIPE_OPTIONS();
-init_define_READING_TIME_LOCALES();
-init_define_REVEAL_CONFIG();
-init_define_WALINE_LOCALES();
-init_define_EXTERNAL_LINK_ICON_LOCALES();
-
-// node_modules/vue-router/dist/vue-router.esm-bundler.js
-init_define_BACK_TO_TOP_LOCALES();
-init_define_CODE_COPY_LOCALES();
-init_define_CODE_COPY_OPIONS();
-init_define_CODE_DEMO_OPTIONS();
-init_define_COMMENT_OPTIONS();
-init_define_MERMAID_OPTIONS();
-init_define_PHOTO_SWIPE_LOCALES();
-init_define_PHOTO_SWIPE_OPTIONS();
-init_define_READING_TIME_LOCALES();
-init_define_REVEAL_CONFIG();
-init_define_WALINE_LOCALES();
-init_define_EXTERNAL_LINK_ICON_LOCALES();
+// node_modules/.pnpm/vue-router@4.0.16_vue@3.2.37/node_modules/vue-router/dist/vue-router.esm-bundler.js
 var hasSymbol = typeof Symbol === "function" && typeof Symbol.toStringTag === "symbol";
 var PolySymbol = (name) => hasSymbol ? Symbol(true ? "[vue-router]: " + name : name) : (true ? "[vue-router]: " : "_vr_") + name;
 var matchedRouteKey = PolySymbol(true ? "router view location matched" : "rvlm");
