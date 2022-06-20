@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "botshen/botshen.github.io",
 
-  docsDir: "docs/posts",
+  docsDir: "docs",
 
   // navbar
   navbar: navbar,
