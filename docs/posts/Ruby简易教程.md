@@ -27,3 +27,14 @@ p u1 #=> #<User:0x014362b8 @name="shenxin">
 # 调用方法
 u1.hi 'ruby' #=> Hi ruby,I am shenxin
 ```
+
+## 数组
+
+```ruby
+# 遍历数组
+arr=[1,2,3,4,5]
+arr.each do |item|
+  p item
+end
+```
+- 11111111
