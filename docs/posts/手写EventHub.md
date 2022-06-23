@@ -34,23 +34,26 @@ description: 手写EventHub
 ```typescript
 // 是一个类
 class EventHub {
-  // 缓存事件对象，key是事件名，value是事件回调
-  private cache: { [key: string]: Array<(data: unknown) => void> } = {};
-  //
-  on(eventName: string, fn: (data: unknown) => void) {
-    this.cache[eventName] = this.cache[eventName] || [];
-    this.cache[eventName].push(fn);
-  }
-  emit(eventName: string, data?: unknown) {
-    // 在缓存里找，如果有就遍历调用函数
-    // data 是触发事件的时候传的参数
-    (this.cache[eventName] || []).forEach((fn) => fn(data));
-  }
-  off(eventName: string, fn: (data: unknown) => void) {
-    let index = indexOf(this.cache[eventName], fn);
-    if (index === -1) return;
-    this.cache[eventName].splice(index, 1);
-  }
+    // 缓存事件对象，key是事件名，value是事件回调
+    private cache: { [key: string]: Array<(data: unknown) => void> } = {};
+
+    //
+    on(eventName: string, fn: (data: unknown) => void) {
+        this.cache[eventName] = this.cache[eventName] || [];
+        this.cache[eventName].push(fn);
+    }
+
+    emit(eventName: string, data?: unknown) {
+        // 在缓存里找，如果有就遍历调用函数
+        // data 是触发事件的时候传的参数
+        (this.cache[eventName] || []).forEach((fn) => fn(data));
+    }
+
+    off(eventName: string, fn: (data: unknown) => void) {
+        let index = indexOf(this.cache[eventName], fn);
+        if (index === -1) return;
+        this.cache[eventName].splice(index, 1);
+    }
 }
 
 export default EventHub;
@@ -61,16 +64,16 @@ export default EventHub;
  * @param item
  */
 function indexOf(array, item) {
-  if (array === undefined) return -1;
+    if (array === undefined) return -1;
 
-  let index = -1;
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === item) {
-      index = i;
-      break;
+    let index = -1;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === item) {
+            index = i;
+            break;
+        }
     }
-  }
-  return index;
+    return index;
 }
 ```
 
@@ -80,41 +83,41 @@ import EventHub from "../src/index";
 type TestCase = (message: string) => void;
 
 const test1: TestCase = (message) => {
-  // 创建实例
-  const eventHub = new EventHub();
-  // 断言是个对象，如果是真的什么也不做，如果是假的会报错
-  console.assert(eventHub instanceof Object === true, "eventHub 是个对象");
-  console.log(message);
+    // 创建实例
+    const eventHub = new EventHub();
+    // 断言是个对象，如果是真的什么也不做，如果是假的会报错
+    console.assert(eventHub instanceof Object === true, "eventHub 是个对象");
+    console.log(message);
 };
 
 const test2: TestCase = (message) => {
-  const eventHub = new EventHub();
-  // on emit
-  let called = false;
-  eventHub.on("xxx", (y) => {
-    // 当回调执行了called变为true
-    called = true;
-    console.assert(y[0] === "今天林志玲结婚了");
-    console.assert(y[1] === "言承旭无话可说");
-  });
-  eventHub.emit("xxx", ["今天林志玲结婚了", "言承旭无话可说"]);
-  // 此处断言被调用了
-  console.assert(called);
-  console.log(message);
+    const eventHub = new EventHub();
+    // on emit
+    let called = false;
+    eventHub.on("xxx", (y) => {
+        // 当回调执行了called变为true
+        called = true;
+        console.assert(y[0] === "今天林志玲结婚了");
+        console.assert(y[1] === "言承旭无话可说");
+    });
+    eventHub.emit("xxx", ["今天林志玲结婚了", "言承旭无话可说"]);
+    // 此处断言被调用了
+    console.assert(called);
+    console.log(message);
 };
 
 const test3: TestCase = (message) => {
-  const eventHub = new EventHub();
-  let called = false;
-  const fn1 = () => {
-    called = true;
-  };
+    const eventHub = new EventHub();
+    let called = false;
+    const fn1 = () => {
+        called = true;
+    };
 
-  eventHub.on("yyy", fn1);
-  eventHub.off("yyy", fn1);
-  eventHub.emit("yyy");
-  console.assert(called === false);
-  console.log(message);
+    eventHub.on("yyy", fn1);
+    eventHub.off("yyy", fn1);
+    eventHub.emit("yyy");
+    console.assert(called === false);
+    console.log(message);
 };
 
 test1("EventHub 可以创建对象");

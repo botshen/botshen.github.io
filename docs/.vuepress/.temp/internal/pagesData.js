@@ -7,6 +7,8 @@ export const pagesData = {
   "v-9d1f6772": () => import(/* webpackChunkName: "v-9d1f6772" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/JS对象的api总结.html.js").then(({ data }) => data),
   // path: /posts/Map%E7%9A%84%E7%94%A8%E6%B3%95.html
   "v-331bf427": () => import(/* webpackChunkName: "v-331bf427" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/Map的用法.html.js").then(({ data }) => data),
+  // path: /posts/Ruby%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B.html
+  "v-23077494": () => import(/* webpackChunkName: "v-23077494" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/Ruby简易教程.html.js").then(({ data }) => data),
   // path: /posts/TODO.html
   "v-7edee604": () => import(/* webpackChunkName: "v-7edee604" */"/Users/shenxin/my-code/vuepress-theme-hope/docs/.vuepress/.temp/pages/posts/TODO.html.js").then(({ data }) => data),
   // path: /posts/vue%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.html
